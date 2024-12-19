@@ -1,0 +1,16 @@
+{
+  "name": "chat app",
+  "version": "1",
+  "description": "A simple chat app using node js and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Dennis Dee",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.0"
+  }
+}
